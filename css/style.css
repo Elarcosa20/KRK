@@ -1,0 +1,254 @@
+
+body{
+  overflow: hidden;
+}
+.home{
+    
+    background-image: url(../Image/logo.jpg);  
+    height: 100%;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-shadow: 0 0 10px #00b3ff;
+}
+.home h3{
+  font-size: 4.4rem;
+  font-weight: 700;
+}
+.images{
+  width: 60%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+.images img{
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform:  translate(-50%);
+  transition: bottom 1s, left 1s;
+}
+.images:hover .boys{
+  left:45%;
+}
+.about{
+    background-image: url(../Image/bg-aboutus.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: 0 0 10px #00b3ff;
+}
+.activity{
+    background-image: url(../Image/bg-activity.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 0 0 10px #00b3ff;
+    color: white;
+    
+}
+.contact{
+    background-image: url(../Image/bg-contactus.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 0 0 10px #00b3ff;
+    color: white;
+ 
+}
+.nav-item a{
+    text-shadow: 0 0 5px #00b3ff;
+    color: white;
+
+}
+
+.get-in-touch {
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+  } 
+
+  .contact-form .form-field {
+    position: relative;
+    margin: 35px 0;
+  }
+  .contact-form .input-text {       
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: solid black ;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: azure;
+
+  }
+  
+  .contact-form .label {
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #5543ca;
+    cursor: text;
+  }
+  .contact-form .submit-btn {
+     background-image: linear-gradient(125deg,#a72879,#064497);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width:200px;
+  }
+
+p{
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 0 0 9px;
+  font-family: 'Times New Roman', Times, serif;
+}
+h5{
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 0 0 9px;
+  font-family: 'Times New Roman', Times, serif;
+  transition: 0.2s;
+}
+h5:hover{
+  transform: scale(1.2);
+}
+.imgs{
+  border-radius: 100%;
+  margin-left: 90px;
+
+}
+
+tr th a{
+  
+  text-decoration: none;
+  box-shadow: 0 0 9px;
+  border-radius: 30px;
+  color: aliceblue;
+}
+.table{
+  color: #fff;
+}
+.cardsss{
+  background-image: url(../Image/surtable.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 397px;
+  width: 345px;
+  padding: 20px 30px; 
+  margin: 15px;
+  position: relative;
+  border: 5px transparent;
+  border-radius: 10%;
+  text-align: center;
+}
+.cardsss a{
+  text-decoration: none;
+  color:cyan;
+  border: 2px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.cardss{
+  background-image: url(../Image/Ben-10-Wallpaper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 397px;
+  width: 345px;
+  padding: 20px 30px; 
+  margin: 15px;
+  position: relative;
+  border: 5px transparent;
+  border-radius: 10%;
+  text-align: center;
+}
+.cardss a{
+  text-decoration: none;
+  color: cyan;
+  border: 2px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.cards{
+  background-image: url(../Image/ptable.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 397px;
+  width: 345px;
+  padding: 20px 30px; 
+  margin: 15px;
+  position: relative;
+  border: 5px transparent;
+  border-radius: 10%;
+  text-align: center;
+}
+.cards a{
+  text-decoration: none;
+  color: cyan;
+  border: 2px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+@import url(https://fonts.googleapis.com/css?family=Istok+Web);
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+* {
+  box-sizing: border-box;
+}
+body, figure { 
+  margin: 0; background: #101010;
+  font-family: Istok Web, sans-serif;
+  font-weight: 50%;
+}
+div#captioned-gallery { 
+  width: 100%; overflow: hidden; 
+}
+figure.slider { 
+  position: relative; width: 500%;
+  font-size: 0; animation: 20s slidy infinite; 
+}
+figure.slider figure { 
+  width: 20%; height: auto;
+  display: inline-block;  position: inherit; 
+}
+figure.slider img { width: 100%; height: 100%; }
+figure.slider figure figcaption { 
+  position: absolute; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  color: #fff; width: 100%;
+  font-size: 2rem; padding: .6rem; 
+}
+
+

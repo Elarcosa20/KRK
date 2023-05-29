@@ -1,0 +1,139 @@
+body{
+    font-family: sans-serif;
+    background-image: url(../Image/bg-periodic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin-left: 150px;
+    padding-top: 5px;
+    overflow: hidden;
+}
+td{ 
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    
+}
+table{
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+sub{
+    font-size: 7px; 
+}
+sup{
+    font-size: 7px;
+}
+.red{
+    background-color: red;
+    transition: transform .2s;
+    border-radius: 10px;
+    border: 1px solid transparent;
+
+}
+.red:hover{
+    transform: scale(1.2);
+} 
+.green{
+    background-color: rgb(113, 237, 113);
+    transition: transform .2s;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+.green:hover{
+    transform: scale(1.2); 
+}
+.pink{
+    background-color: pink;
+    transition: transform .2s;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+.pink:hover{
+    transform: scale(1.2); 
+}
+.orange{
+    background-color: orange;
+    transition: transform .2s;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+.orange:hover{
+    transform: scale(1.2); 
+}
+.yellow{
+    background-color: yellow;
+    transition: transform .2s;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+.yellow:hover{
+    transform: scale(1.2); 
+}
+.violet{
+    background-color: violet;
+    transition: transform .2s;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+.violet:hover{
+    transform: scale(1.2); 
+}
+.bluekoi{
+    background-color: #659EC7;
+    transition: transform .2s;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+.bluekoi:hover{
+    transform: scale(1.2); 
+}
+.blue{
+    background-color: #5CB3FF;
+    transition: transform .2s;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+.blue:hover{
+    transform: scale(1.2); 
+}
+.brightteal{
+    background-color: #01F9C6;
+    transition: transform .2s;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+.brightteal:hover{
+    transform: scale(1.2); 
+}
+.platinumsilver{
+    background-color: #CECECE;
+    transition: transform .2s;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+.platinumsilver:hover{
+    transform: scale(1.2); 
+}
+.rd{
+    color: red;
+}
+
+.wht{
+    color: white;
+}
+.blo{
+    color: blue;
+}
+.grey{
+    color: #86608E;
+    font-weight: bold;
+}
+.right{
+    float: right;
+    margin-top: 10px;
+    font-size: smaller;
+    font-weight: bold;
+}
