@@ -4,7 +4,7 @@ body{
 }
 .home{
     
-    background-image: url(../Image/logo.jpg);  
+    background-image: url(../img/logo.jpg);  
     height: 100%;
     
     background-repeat: no-repeat;
@@ -37,7 +37,7 @@ body{
   left:45%;
 }
 .about{
-    background-image: url(../Image/bg-aboutus.jpg);
+    background-image: url(../img/bg-aboutus.jpg);
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,7 +45,7 @@ body{
     text-shadow: 0 0 10px #00b3ff;
 }
 .activity{
-    background-image: url(../Image/bg-activity.jpg);
+    background-image: url(../img/bg-activity.jpg);
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,7 +54,7 @@ body{
     
 }
 .contact{
-    background-image: url(../Image/bg-contactus.jpg);
+    background-image: url(../img/bg-contactus.jpg);
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -144,7 +144,7 @@ tr th a{
   color: #fff;
 }
 .cardsss{
-  background-image: url(../Image/surtable.jpg);
+  background-image: url(../img/surtable.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 397px;
@@ -165,7 +165,7 @@ tr th a{
   text-align: center;
 }
 .cardss{
-  background-image: url(../Image/Ben-10-Wallpaper.jpg);
+  background-image: url(../img/Ben-10-Wallpaper.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 397px;
@@ -186,7 +186,7 @@ tr th a{
   text-align: center;
 }
 .cards{
-  background-image: url(../Image/ptable.jpg);
+  background-image: url(../img/ptable.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 397px;
